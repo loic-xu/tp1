@@ -35,7 +35,7 @@ nav{
     order: 1;
     background-color: yellow;
     height: auto;
-    width: 150px;
+    width: 10%;
 }
 
 main{
@@ -51,7 +51,7 @@ main{
 
 aside{
     height: auto;
-    width: 250px;
+    width: 10%;
     background-color: purple;
     order: 3;
 }
@@ -64,4 +64,11 @@ aside{
 footer{
     background-color: brown;
     text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    aside{
+        width: 0%;
+    }
+
 }
