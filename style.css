@@ -23,7 +23,7 @@ em{
 }
 
 header{
-    background-color: green;
+    background-color: grey;
     display: flex;
     justify-content: center;
     vertical-align:bottom;
@@ -33,7 +33,7 @@ header{
 
 nav{
     order: 1;
-    background-color: yellow;
+    background-color: lightgoldenrodyellow;
     height: auto;
     width: 10%;
 }
@@ -43,7 +43,7 @@ main{
     width:auto;
     padding-left: 10px;
     padding-bottom: 5px;
-    background-color: blue;
+    background-color: lightblue;
 
     order:2;
     flex-grow: 2;
@@ -52,7 +52,7 @@ main{
 aside{
     height: auto;
     width: 10%;
-    background-color: purple;
+    background-color: lightsalmon;
     order: 3;
 }
 
@@ -62,7 +62,7 @@ aside{
 }
 
 footer{
-    background-color: brown;
+    background-color: rgba(58, 80, 154, 0.594);
     text-align: center;
     width: auto;
 }
