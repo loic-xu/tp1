@@ -27,7 +27,7 @@ header{
     display: flex;
     justify-content: center;
     vertical-align:bottom;
-    height: 75px;
+    height: auto;
     width: 100%;
 }
 
@@ -64,11 +64,20 @@ aside{
 footer{
     background-color: brown;
     text-align: center;
+    width: auto;
 }
 
-@media screen and (max-width: 800px){
-    aside{
-        width: 0%;
+@media screen and (max-width: 1000px){
+    .box{
+        flex-direction: column;
     }
-
+    nav{
+        width: auto;
+    }
+    main{
+        width: auto;
+    }
+    aside{
+        display: none;
+    }
 }
